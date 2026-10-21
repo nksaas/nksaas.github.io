@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nksaas.github.io/sitemap.xml

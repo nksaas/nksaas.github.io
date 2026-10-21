@@ -1,0 +1,28 @@
+# NK 엔지니어링 & 모터 권선 기술 연구소 (https://nksaas.github.io)
+
+> 대한민국 산업용 3상·단상 유도전동기 권선 설계(KS C IEC 60034), 에나멜 동선 규격(SWG·AWG·SQ), 정격전류·차단기(MCCB)·EOCR 선정, 한국전기설비규정(KEC 212) 전압강하 계산기 및 16편의 실무 엔지니어링 가이드를 제공하는 기술 연구소입니다.
+
+## 실시간 엔지니어링 계산기 (Interactive Engineering Tools)
+- [모터 권선 코일 턴수 · 에나멜 동선 중량 및 슬롯 점적률 계산기](https://nksaas.github.io/motor-winding-calculator): 단상·3상 유도전동기의 스테이터 슬롯 수, 코어 적층 길이, SWG/mm 선경, 코일 턴수를 입력하면 주권선·기동권선 동선 중량(g/kg), 평균 턴 길이(MTL), 20°C/75°C 직류 저항(Ω), 슬롯 점적률(%)을 자동 산출합니다.
+- [SWG · AWG · mm · SQ(mm²) 전선 규격 변환 및 허용전류 계산기](https://nksaas.github.io/swg-awg-sq-converter): 영국 표준(SWG), 미국 표준(AWG), 밀리미터(mm) 직경, 한국전기설비규정 단면적(SQ, mm²)을 상호 변환하고 전류밀도 기준 안전 허용전류(A)와 km당 저항을 계산합니다.
+- [3상 380V · 단상 220V 전동기 정격전류, 차단기(MCCB) 및 EOCR 세팅 계산기](https://nksaas.github.io/three-phase-current-calculator): 국내 산업 현장 표준인 3상 380V/440V 및 단상 220V 전동기의 출력(kW/HP), 효율(η), 역률(cosθ)을 바탕으로 정격전류(In), 기동전류, 배선용 차단기(MCCB) 정격 및 EOCR 과전류 설정 범위를 계산합니다.
+- [단상 모터 운전·기동 콘덴서(μF) 용량 및 3상 역률 개선 콘덴서 계산기](https://nksaas.github.io/capacitor-uf-calculator): 단상 220V 60Hz 유도전동기의 운전 콘덴서(Run Capacitor, μF)와 기동 콘덴서(Start Capacitor, μF) 적정 용량 및 3상 동력 설비의 한국전력(KEPCO) 목표 역률(95%) 달성용 콘덴서 뱅크(kVar)를 산출합니다.
+- [KEC 전선 전압강하(Voltage Drop) 및 동력 간선 굵기(SQ) 선정 계산기](https://nksaas.github.io/voltage-drop-calculator): 한국전기설비규정(KEC 212)에 의거하여 배선 거리(m), 부하 전류(A), 전원 방식(단상 220V / 3상 380V)에 따른 전압강하(V, %)와 최소 적합 전선 단면적(SQ, mm²)을 계산합니다.
+
+## 실무 기술 가이드 (Technical Guides)
+- [3상 유도전동기 권선 설계 및 슬롯 턴수·코일 피치 계산 실무 가이드 (KS C IEC 60034)](https://nksaas.github.io/guide-3phase-motor-winding): 380V 3상 유도전동기의 공극 자속밀도, 슬롯 수, 극수(2극·4극·6극)에 따른 매극 매상당 슬롯 수(q), 권선계수(kw) 및 슬롯당 적정 코일 턴수 산출 공식을 실제 3.7kW(5HP) 36슬롯 모터 사례로 해설합니다.
+- [단상 유도전동기 기동·운전 콘덴서 결선도 및 정역 회전방향(CW/CCW) 변경 실무](https://nksaas.github.io/guide-single-phase-capacitor-wiring): 단상 220V 모터의 주권선(운전코일)과 보조권선(기동코일) 저항 판별법, 원심력 스위치와 기동·운전 콘덴서 직병렬 회로 구성, 그리고 4가닥·6가닥 인출선에서 회전방향을 안전하게 전환하는 결선 절차를 다룹니다.
+- [에나멜 동선(PEW·UEW·AIW·EIW) SWG · AWG · mm 직경 및 내열등급 허용전류 규격표](https://nksaas.github.io/guide-swg-awg-sq-wire-chart): 권선 현장에서 사용하는 폴리에스테르(PEW 155°C), 이미드(EIW 180°C), 아미드이미드(AIW 200°C) 마그네트 와이어의 피막 특성 비교와 SWG 12번~38번까지의 직경·단면적·저항·허용전류 데이터를 수록했습니다.
+- [전동기 절연저항 측정(메거 테스트 500V·1000V) 합부 판정 기준과 코일 지락·층간단락 진단](https://nksaas.github.io/guide-motor-insulation-megger-test): 한국전기설비규정(KEC) 및 IEEE 43 기준에 따른 저압·고압 전동기 절연저항계(Megger) 시험 전압 선정, 온도 보정 계수, 성극지수(PI) 산출법 및 습기 침투 시 건조 복구 절차를 상세히 안내합니다.
+- [380V 3상 모터 와이-델타(Y-Δ) 기동반 원리, 마그네트(MC) 용량 선정 및 타이머 세팅](https://nksaas.github.io/guide-star-delta-starter-wiring): 11kW(15HP) 이상 중대형 3상 유도전동기의 기동전류를 1/3로 줄이는 Y-Δ(스타-델타) 기동 시퀀스 회로 구성, 메인(MCM)·델타(MCD)·와이(MCY) 전자접촉기 용량 배분 및 절체 타이머 설정법을 정리합니다.
+- [전자식 과전류 계전기(EOCR) 정격전류(LOAD)·지연시간(D-TIME·O-TIME) 세팅 및 트립 대처법](https://nksaas.github.io/guide-eocr-thermal-relay-setting): 모터 소손 방지의 핵심인 디지털·아날로그 EOCR(삼화/슈나이더 등)의 기동지연시간(D-TIME), 과부하 동작시간(O-TIME), 부하전류(LOAD) 다이얼 정정 공식과 결상·구속·불평형 트립 원인을 분석합니다.
+- [수중펌프·배수펌프 모터 코일 재권선(리와인딩), 에폭시 방수 몰딩 및 메카니컬 씰 점검](https://nksaas.github.io/guide-submersible-pump-rewinding): 물속에서 운전되는 수중펌프(오수·배수·심정용) 전동기의 침수 소손 원인, 내수성 에나멜선 선정, 리드선 수밀 처리, 터빈유(절연유) 충진량 및 더블 메카니컬 씰 교체 절차를 현장 기준으로 설명합니다.
+- [인버터(VFD) 속도제어 시 모터 코일 절연파괴 방지, 캐리어 주파수 및 저속 과열 대책](https://nksaas.github.io/guide-vfd-inverter-parameter-setup): PWM 인버터 구동 시 발생하는 마이크로 서지 전압(dv/dt)에 의한 코일 첫 번째 턴 절연파괴 메커니즘, 20Hz 이하 저속 운전 시 냉각팬 풍량 저하 대책, 리액터 설치 및 기본 파라미터 설정법을 다룹니다.
+- [구리 동선(Cu) vs 알루미늄(Al) 권선 전도율·단면적 보정 계수(1.28배) 및 리와인딩 개조법](https://nksaas.github.io/guide-copper-vs-aluminum-winding): 저가 수입산 알루미늄 코일 모터를 고수명 순동(구리) 코일로 재권선(개조)할 때 적용하는 도전율 비율(61% IACS), 선경 축소 계수(0.78~0.80배), 슬롯 발열 감소량 및 단자 압착 주의사항을 정리합니다.
+- [전동기 베어링(6203·6205·6308 ZZ/DDU) 이상 소음·진동 진단, 유격 규격 및 그리스 주입량](https://nksaas.github.io/guide-motor-bearing-noise-vibration): 모터 고장의 50% 이상을 차지하는 볼베어링 마모·전식(축전류)·과주입 발열 문제를 예방하기 위해 ISO 10816 진동 속도 기준, 베어링 형번 해독법(ZZ vs DDU, C3 틈새), 적정 그리스 보충 그램(g) 계산식을 제시합니다.
+- [한국전기설비규정(KEC 212) 동력 간선 전압강하 계산식 및 F-CV·HIV 케이블 굵기(SQ) 선정표](https://nksaas.github.io/guide-kec-voltage-drop-cable-sizing): 공장 분전반에서 모터 단자함까지 배선 길이가 길어질 때 발생하는 전압강하와 기동 토크 저하(전압 제곱에 비례)를 막기 위해 KEC 공사방법별 허용전류표와 거리별 권장 SQ 단면적을 상세히 수록했습니다.
+- [소형 제어용 변압기(트랜스) EI 코어 단면적 측정, 볼트당 턴수(Turns/V) 및 1·2차 권선 설계](https://nksaas.github.io/guide-transformer-turn-ratio-core): 배전반 제어회로용 단상 변압기(380V/220V → 220V/110V/24V) 재권선 시 규소강판 코어 중앙 레그(혀 폭×적층 두께) 실측을 통한 정격 용량(VA) 추정, 자속밀도(1.1~1.2T) 기준 볼트당 턴수 산출 공식을 다룹니다.
+- [산업용 환풍기·시로코팬·블로워 모터 극수(2극·4극·6극) 판별 및 코일 피치 산출법](https://nksaas.github.io/guide-exhaust-fan-blower-rewinding): 식당·공장 덕트용 시로코팬, 축류 배풍기, 링블로워 모터 분해 시 기존 코일의 슬롯 스팬(1~6, 1~8, 1~10)을 보고 극수와 동기속도를 역산하는 방법 및 동심권·단층권 결선 절차를 안내합니다.
+- [공장 동력 설비 역률 개선용 진상 콘덴서(SC) 및 직렬 리액터(SR 6%) 용량 계산 실무](https://nksaas.github.io/guide-power-factor-capacitor-bank): 한국전력 전기요금 역률 할증(주간 평균역률 90% 미달 시 추가 부과)을 방지하고 변압기 여유 용량을 확보하기 위한 부하별 적정 콘덴서 용량(kVar) 조견표와 제5고조파 억제용 6% 직렬 리액터 선정 기준입니다.
+- [코일 권선 후 절연 바니시(Varnish) 함침 공정, 열풍 건조 온도 프로파일 및 내전압 시험](https://nksaas.github.io/guide-winding-varnish-drying-baking): 재권선 완료된 스테이터 코일의 전자기 진동 방지와 열전도율 향상을 위한 자연건조형·열경화성 바니시 함침 방법, 예열→함침→경화 건조(Baking) 단계별 온도·시간 관리 및 출고 전 내전압 시험 기준입니다.
+- [후크메타(클램프 미터)와 디지털 멀티미터를 활용한 3상 불평형 전류 및 코일 단선 진단법](https://nksaas.github.io/guide-clamp-meter-multimeter-testing): 현장 전기 기술자가 후크메타(Clamp Meter) 하나로 R·S·T 3상 전류 불평형률(5% 이내 기준)과 누설전류(mA)를 계측하는 방법, 그리고 멀티미터 저항 레인지로 Y결선·Δ결선 내부 코일 단선 및 층간 불균형을 찾아내는 실무 매뉴얼입니다.
